@@ -1,0 +1,26 @@
+h1
+{
+    text-align:center;
+}
+p{
+    text-align: center;
+}
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+  }
+  
+  .vertical-menu a {
+    background-color: black; 
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 50px; 
+    text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+    background-color: white;
+  }
+  
+  .vertical-menu a.active {
+    background-color: black; color: white;
+  }
